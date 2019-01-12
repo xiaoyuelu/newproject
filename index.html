@@ -4,10 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>hello world</title>
+    <script src='event.js'></script>
 </head>
 
 <body>
     <h1>hello world</h1>
+    <button onclick="onClick_OpenFile()">打开文件对话框</button><br><br>
+    <button onclick="onClick_CustomOpenFile()">打开定制文件对话框</button><br><br>
+    <button onclick="onClick_FileType()">打开指定文件类型</button><br><br>
+    <button onclick="onClick_OpenAndCreateDirectory()">打开和创建目录</button><br><br>
+    <button onclick="onClick_MultiSelection()">选择多个文件或目录</button><br><br>
+    <button onclick="onClick_Callback()">通过回调函数返回选择的文件和目录</button><br><br>
+    <label id="label" style="font-size:large"></label>
 </body>
 
 </html>
